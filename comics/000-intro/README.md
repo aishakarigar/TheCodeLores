@@ -1,8 +1,10 @@
 
 
 # 🚀 CodeLores is live!
-![Comic 00 – Intro](./intro.png)
 Here’s the official launch of my little dev-comic experiment. 🎨👩‍💻
+
+![Comic 00 – Intro](./intro.png)
+
 
 💡 The idea: Take everyday coding struggles, bugs, and “aha!” moments — and turn them into comics.
 
