@@ -28,7 +28,7 @@ int reverse(int x) {
     }
     return (int)rev;
 }
-
+```
 
 ---
 
