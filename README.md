@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo1.png" width="300" alt="The Codelores Banner"/>
+</p>
+
 # 🚀 The CodeLores – Tech Comics
 
 **The CodeLores** is a comic series blending coding, humor, and storytelling.  
@@ -31,4 +35,4 @@ All comics are under **CC BY-NC 4.0** — free to share & remix with credit, but
 ---
 
 🔗 Follow on [LinkedIn](https://www.linkedin.com/in/aisha-karigar/)  
-Hashtag: **#TheCodelores**
+Hashtag: **#TheCodeLores**
