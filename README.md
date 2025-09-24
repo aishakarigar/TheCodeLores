@@ -1,10 +1,13 @@
-# 🚀 The Codelores – Tech Comics
+# 🚀 The CodeLores – Tech Comics
 
-**The Codelores** is a comic series blending coding, humor, and storytelling.  
+**The CodeLores** is a comic series blending coding, humor, and storytelling.  
 Instead of dry docs, we explain coding, debugging, and developer life through **fun comic strips**.  
 
 ---
-
+## 📖 Comics
+- [001 – Reverse Integer](comics/001-reverse-integer)
+- 002 – Coming soon…
+---
 ## 📚 What You'll Find
 - 🎨 Comics (PNG/JPG format)  
 - 📝 Notes & extended editions  
