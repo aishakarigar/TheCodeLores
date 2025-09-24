@@ -1,5 +1,5 @@
----
-````markdown
+
+
 # Contributing to The CodeLores
 
 Thanks for your interest in contributing to **The CodeLores** — a tech comic about coding, debugging, and developer life! 🎉  
@@ -17,7 +17,7 @@ We welcome **ideas, jokes, scripts, and artwork**. Here’s how you can join in.
 2. **Create a branch**  
    ```bash
    git checkout -b idea/debugging-nightmares
-````
+
 
 Use a descriptive name (`idea/...`, `art/...`, `fix/...`).
 
