@@ -1,6 +1,5 @@
 
 
-````markdown
 # Comic 001 – Reverse Integer  
 
 ![Comic 01 – Reverse Integer](./comic.png)
@@ -29,7 +28,7 @@ int reverse(int x) {
     }
     return (int)rev;
 }
-````
+
 
 ---
 
