@@ -1,7 +1,7 @@
 title: "The Codelores"
 description: "A tech comic series blending code, humor, and storytelling."
 baseurl: "" # leave empty unless site is in a subfolder
-url: "https://aishakarigar.github.io/the-codelores" # update to your repo Pages URL
+url: "https://aishakarigar.github.io/TheCodeLores" # update to your repo Pages URL
 
 theme: minima   # You can also try: cayman, jekyll-theme-cayman, etc.
 
