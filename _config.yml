@@ -1,0 +1,31 @@
+title: "The Codelores"
+description: "A tech comic series blending code, humor, and storytelling."
+baseurl: "" # leave empty unless site is in a subfolder
+url: "https://aishakarigar.github.io/the-codelores" # update to your repo Pages URL
+
+theme: minima   # You can also try: cayman, jekyll-theme-cayman, etc.
+
+nav:
+  - name: "Home"
+    link: /
+  - name: "Comics"
+    link: /comics
+  - name: "Contributing"
+    link: /CONTRIBUTING
+  - name: "GitHub Repo"
+    link: https://github.com/aishakarigar/TheCodeLores
+
+
+# Markdown & formatting
+markdown: kramdown
+highlighter: rouge
+
+# Include extra assets
+include:
+  - assets
+  - comics
+
+# Plugins (optional, but makes site richer)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
