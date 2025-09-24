@@ -3,7 +3,8 @@
 ````markdown
 # Comic 001 – Reverse Integer  
 
-![Comic 01 – Reverse Integer](comic.png)  
+![Comic 01 – Reverse Integer](./comic.png)
+ 
 
 ---
 
@@ -62,7 +63,4 @@ It’s about building systems that stand strong in the real world.
 📅 Published: September 2025
 ✍️ Author: [Aisha Karigar](https://github.com/aishakarigar)
 
-```
 
-
-```
