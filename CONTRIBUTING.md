@@ -1,3 +1,7 @@
+---
+layout: page
+title: Contributing
+---
 
 
 # Contributing to The CodeLores
