@@ -1,6 +1,10 @@
+---
+layout: page
+title: 🚀 CodeLores is live!
+---
 
 
-# 🚀 CodeLores is live!
+
 Here’s the official launch of my little dev-comic experiment. 🎨👩‍💻
 
 ![Comic 00 – Intro](./intro.png)
