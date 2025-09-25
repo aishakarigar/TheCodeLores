@@ -13,7 +13,8 @@ All published strips are here, automatically updated as new ones are added.
 {% for comic in site.static_files %}
 {% if comic.path contains 'comics/' and comic.extname == '.png' %}
 <div align="center">
-  <img src="{{ comic.path }}" alt="{{ comic.name }}" width="600"/>
+  <img src="{{ site.baseurl }}{{ comic.path }}" alt="{{ comic.name }}" width="600"/>
+
   <p><em>{{ comic.name | replace: '-', ' ' | replace: '.png', '' | capitalize }}</em></p>
   <hr/>
 </div>
