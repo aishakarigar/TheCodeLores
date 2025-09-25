@@ -19,15 +19,41 @@ But here’s the catch: what if the reversed number overflows a 32-bit integer?
 ## 💻 Code Example (C++)  
 
 ```cpp
-int reverse(int x) {
-    long rev = 0;
-    while (x != 0) {
-        rev = rev * 10 + x % 10;
-        x /= 10;
-        if (rev > INT_MAX || rev < INT_MIN) return 0; // overflow check
+#include <iostream>
+#include <climits> // for INT_MAX and INT_MIN
+using namespace std;
+
+class Solution {
+public:
+    int reverse(int x) {
+        int rev = 0;
+        while (x != 0) {
+            int digit = x % 10;
+            x /= 10;
+
+            // Check for overflow before multiplying by 10
+            if (rev > INT_MAX / 10 || (rev == INT_MAX / 10 && digit > 7)) {
+                return 0; // overflow
+            }
+            if (rev < INT_MIN / 10 || (rev == INT_MIN / 10 && digit < -8)) {
+                return 0; // underflow
+            }
+
+            rev = rev * 10 + digit;
+        }
+        return rev;
     }
-    return (int)rev;
+};
+
+int main() {
+    Solution s;
+    cout << s.reverse(123) << endl;   // Output: 321
+    cout << s.reverse(-123) << endl;  // Output: -321
+    cout << s.reverse(120) << endl;   // Output: 21
+    cout << s.reverse(1534236469) << endl; // Output: 0 (overflow)
+    return 0;
 }
+
 ```
 
 ---
