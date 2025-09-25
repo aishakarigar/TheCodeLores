@@ -1,7 +1,8 @@
 title: "The CodeLores"
 description: "A tech comic series blending code, humor, and storytelling."
-baseurl: "" # leave empty unless site is in a subfolder
-url: "https://aishakarigar.github.io/TheCodeLores" # URL
+url: "https://aishakarigar.github.io"
+baseurl: "/TheCodeLores"
+
 
 theme: minima   # You can also try: cayman, jekyll-theme-cayman, etc.
 
