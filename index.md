@@ -24,9 +24,18 @@ Instead of long docs or dry explanations, think of this as **short, fun strips**
   </a>
 
   {% assign folder = latest_comic.path | split: '/' | slice: -2, 1 %}
-  <p><em>{{ folder | replace: '-', ' ' | capitalize }}</em></p>
+  <p>
+    <em>
+      <a href="{{ site.baseurl }}/comics/{{ folder }}/">
+        {{ folder | replace: '-', ' ' | capitalize }}
+      </a>
+    </em>
+  </p>
+  <hr/>
 </div>
 {% endif %}
+
+
 
 
 ---
