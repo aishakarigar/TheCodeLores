@@ -1,6 +1,8 @@
-
-
-# Comic 001 – Reverse Integer  
+---
+layout: page
+title: Comic 001 – Reverse Integer
+---
+ 
 
 ![Comic 01 – Reverse Integer](./comic.png)
  
