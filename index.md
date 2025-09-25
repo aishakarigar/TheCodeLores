@@ -56,7 +56,8 @@ Instead of long docs or dry explanations, think of this as **short, fun strips**
 ---
 
 ## 🤝 How to Contribute
-Got a funny dev story, bug, or coding struggle that deserves a strip? 👉 See our [Contributing Guidelines](CONTRIBUTING.md).  
+Got a funny dev story, bug, or coding struggle that deserves a strip? 👉 See our [Contributing Guidelines]({{ site.baseurl }}/contributing/).
+
 
 ---
 
