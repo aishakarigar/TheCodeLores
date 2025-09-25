@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Contributing
+title: Contributing to The CodeLores
 permalink: /contributing/
 ---
 
-
-# Contributing to The CodeLores
 
 Thanks for your interest in contributing to **The CodeLores** — a tech comic about coding, debugging, and developer life! 🎉  
 
