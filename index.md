@@ -19,11 +19,15 @@ Instead of long docs or dry explanations, think of this as **short, fun strips**
 {% assign latest_comic = site.static_files | where: "extname", ".png" | where_exp: "f", "f.path contains 'comics/'" | sort: "modified_time" | last %}
 {% if latest_comic %}
 <div align="center">
-  <img src="{{ site.baseurl }}{{ comic.path }}" alt="{{ comic.name }}" width="600"/>
+  <a href="{{ site.baseurl }}{{ latest_comic.path }}">
+    <img src="{{ site.baseurl }}{{ latest_comic.path }}" alt="{{ latest_comic.name }}" width="600"/>
+  </a>
 
-  <p><em>{{ latest_comic.name | replace: '-', ' ' | replace: '.png', '' | capitalize }}</em></p>
+  {% assign folder = latest_comic.path | split: '/' | slice: -2, 1 %}
+  <p><em>{{ folder | replace: '-', ' ' | capitalize }}</em></p>
 </div>
 {% endif %}
+
 
 ---
 
