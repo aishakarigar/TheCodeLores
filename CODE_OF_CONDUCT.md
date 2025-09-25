@@ -1,4 +1,8 @@
-# Code of Conduct
+---
+layout: page
+title: Code of Conduct
+permalink: /CODE_OF_CONDUCT/
+---
 
 We want **The CodeLores** to be a fun, safe, and welcoming place for everyone.  
 
