@@ -1,3 +1,8 @@
+---
+layout: default
+title: "The CodeLores"
+---
+
 <p align="center">
   <img src="assets/logo1.png" width="600" alt="The Codelores Banner"/>
 </p>
