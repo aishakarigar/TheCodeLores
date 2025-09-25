@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "The CodeLores"
+title: ""
 ---
 
 <p align="center">
