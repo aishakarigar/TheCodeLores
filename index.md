@@ -19,7 +19,8 @@ Instead of long docs or dry explanations, think of this as **short, fun strips**
 {% assign latest_comic = site.static_files | where: "extname", ".png" | where_exp: "f", "f.path contains 'comics/'" | sort: "modified_time" | last %}
 {% if latest_comic %}
 <div align="center">
-  <img src="{{ latest_comic.path }}" width="600" alt="{{ latest_comic.name }}" />
+  <img src="{{ site.baseurl }}{{ comic.path }}" alt="{{ comic.name }}" width="600"/>
+
   <p><em>{{ latest_comic.name | replace: '-', ' ' | replace: '.png', '' | capitalize }}</em></p>
 </div>
 {% endif %}
