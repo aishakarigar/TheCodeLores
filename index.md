@@ -55,18 +55,6 @@ Instead of long docs or dry explanations, think of this as **short, fun strips**
 
 ---
 
-## 📢 Latest Comics
-
-| Title | Link |
-|-------|------|
-{% for comic in site.static_files %}
-{% if comic.path contains 'comics/' and comic.extname == '.png' %}
-| {{ comic.name | replace: '-', ' ' | replace: '.png', '' | capitalize }} | [View]({{ comic.path }}) |
-{% endif %}
-{% endfor %}
-
----
-
 ## 🤝 How to Contribute
 Got a funny dev story, bug, or coding struggle that deserves a strip? 👉 See our [Contributing Guidelines](CONTRIBUTING.md).  
 
