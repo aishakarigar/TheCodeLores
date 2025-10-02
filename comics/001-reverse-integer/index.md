@@ -70,14 +70,15 @@ But if the system isn’t **overflow-safe**…
 ➡️ 2 billion views could turn into negative views or break the counter.
 
 This tiny puzzle reflects a massive engineering challenge:
-Handling edge cases at scale
 
-Designing systems that fail gracefully
+- Handling edge cases at scale.
 
-Thinking like an engineer, not just a coder
+- Designing systems that fail gracefully.
+
+- Thinking like an engineer, not just a coder.
 
 ---
-🛠 How It’s Solved in the Real World
+## 🛠 How It’s Solved in the Real World
 
 Our code above works for LeetCode: if overflow happens, we just return 0.
 But production systems don’t have that luxury.
