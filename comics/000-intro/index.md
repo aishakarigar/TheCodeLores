@@ -14,6 +14,4 @@ Here’s the official launch of my little dev-comic experiment. 🎨👩‍💻
 
 This is just the beginning — more strips coming soon.
 
-Follow along, and let me know: what’s your funniest dev moment that deserves a comic?
-
 #CodeLores #TechComics #Coding
