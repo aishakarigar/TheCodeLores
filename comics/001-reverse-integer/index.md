@@ -5,6 +5,7 @@ title: Comic 001 – Reverse Integer
  
 
 ![Comic 01 – Reverse Integer](./comic.png)
+*When your `int` can’t handle Gangnam Style 💃*
  
 
 ---
@@ -69,10 +70,44 @@ But if the system isn’t **overflow-safe**…
 ➡️ 2 billion views could turn into negative views or break the counter.
 
 This tiny puzzle reflects a massive engineering challenge:
-✔ Handling edge cases at scale
-✔ Designing systems that fail gracefully
-✔ Thinking like an engineer, not just a coder
+Handling edge cases at scale
 
+Designing systems that fail gracefully
+
+Thinking like an engineer, not just a coder
+
+---
+🛠 How It’s Solved in the Real World
+
+Our code above works for LeetCode: if overflow happens, we just return 0.
+But production systems don’t have that luxury.
+
+Bigger data types
+YouTube originally used a 32-bit signed integer for view counts (max 2,147,483,647).
+In 2014, Psy’s Gangnam Style broke this limit.
+Solution? Upgrade to a 64-bit counter (max 9,223,372,036,854,775,807). Problem solved (for now).
+
+Even bigger numbers
+In cryptography, finance, and scientific computing, numbers can exceed 64-bit.
+Engineers use tools like GMP (GNU Multiple Precision) or even __int128 in GCC/Clang.
+
+Scaling / Approximation
+Social platforms don’t show exact numbers past a point.
+
+Backend stores the raw number safely (long long or bigger).
+
+Frontend shows a friendly version: 1.2B instead of 1,234,567,890.
+
+Keeps the UI neat while data stays safe.
+
+Graceful handling
+Instead of silently failing, production systems may:
+
+Log the overflow
+
+Throw an exception
+
+Use fallback values
 ---
 
 ## ⚡ Takeaway
@@ -85,7 +120,7 @@ It’s about building systems that stand strong in the real world.
 
 ---
 
-🔙 [Back to TheCodeLores Home](../../README.md)
+🔙 [Back to TheCodeLores Home](../../index.md)
 
 📅 Published: September 2025
 ✍️ Author: [Aisha Karigar](https://github.com/aishakarigar)
