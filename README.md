@@ -14,7 +14,8 @@ We explain coding, debugging, and developer life through **short, fun strips** i
 ## 📖 Comic Archive
 - [000 – Intro to Codelores](comics/000-intro/)
 - [001 – Reverse Integer](comics/001-reverse-integer/)
-- 002 – Coming soon…
+- [002 – Exception Handling](comics/002-exception-handling/)
+- 003 – Coming soon…
 
 ---
 
