@@ -4,6 +4,9 @@ title: Comic 002 – The Divide by Zero Hero
 ---
 
 ![Comic 02 – Divide by Zero Hero](./comic.png)
+
+
+
 *Some divide to conquer. Others… just crash.*
 
 ---
