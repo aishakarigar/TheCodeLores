@@ -48,15 +48,20 @@ except ZeroDivisionError:
 
 ## 🧩 Lesson
 
-When a program attempts to divide by zero, it triggers a **runtime exception** —
-an error that occurs *while the code is running*.
+When a program attempts to divide by zero, it triggers a runtime exception —
+an error that occurs while the code is running.
 
-To prevent a crash, we use **exception handling**:
+To prevent a crash, we use exception handling:
 
-* `try–catch` in Java / C++
-* `try–except` in Python
+try–catch in Java / C++
 
-This lets the program recover gracefully instead of crashing mid-run.
+try–except in Python
+
+When the risky code inside try fails, control jumps to the catch block,
+letting you handle the error — print a message, skip a step, or log it safely —
+instead of letting the program crash mid-run.
+
+Think of it as giving your code a parachute — it still falls, but lands safely. 🪂
 
 ---
 
