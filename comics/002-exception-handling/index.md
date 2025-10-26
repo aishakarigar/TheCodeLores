@@ -87,8 +87,6 @@ When your program crashes faster than your Wi-Fi, remember:
 📅 Published: October 2025
 ✍️ Author: [Aisha Karigar](https://github.com/aishakarigar)
 
-```
 
----
 
 
