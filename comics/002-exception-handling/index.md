@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: Comic 002 – The Divide by Zero Hero
