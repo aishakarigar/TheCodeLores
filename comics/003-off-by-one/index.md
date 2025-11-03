@@ -40,49 +40,70 @@ int main() {
 
     return 0;
 }
-💻 Code Example (Python)
-python
-Copy code
+````
+
+---
+
+## 💻 Code Example (Python)
+
+```python
 clones = [0] * 5
 
 for i in range(0, 6):  # ⚠️ Off-by-one error! range(0, 6) → runs 6 times
     clones[i] = i
     print(f"Clone #{i} created")
-🧩 Lesson
-The difference between < n and <= n decides whether you:
+```
+
+---
+
+## 🧩 Lesson
+
+The difference between `< n` and `<= n` decides whether you:
 ✅ stay within bounds — or
-❌ summon an IndexError / Segmentation Fault.
+❌ summon an *IndexError* / *Segmentation Fault*.
 
-If your array has n elements, valid indices are 0 through n-1.
-So use i < n, not i <= n.
+If your array has `n` elements, valid indices are `0` through `n-1`.
+So use `i < n`, not `i <= n`.
 
-Rule of thumb:
-👉 Arrays are zero-indexed. Loops should stop before n.
+**Rule of thumb:**
+👉 Arrays are zero-indexed. Loops should stop **before** `n`.
 
-Think of it as an exclusive party — n is on the guest list,
+Think of it as an exclusive party — `n` is on the guest list,
 but never gets inside. 🎟️
 
-🌍 Real-World Connection
+---
+
+## 🌍 Real-World Connection
+
 Off-by-one errors are everywhere — in loops, slicing,
 pagination, and even in time calculations.
 
 NASA’s Mars Climate Orbiter once failed
-due to a unit conversion bug —
+due to a **unit conversion bug** —
 a tiny mismatch that led to massive consequences.
 One extra or missing iteration can cause similar chaos
 in software systems managing memory, arrays, or buffers.
 
 Precision isn’t just math — it’s survival. 🚀
 
-🦸 CodeLore
-Our hero’s clone army was supposed to have n soldiers —
-but i <= n unleashed one too many.
+---
+
+## 🦸 CodeLore
+
+Our hero’s clone army was supposed to have `n` soldiers —
+but `i <= n` unleashed **one too many**.
 The overflow began… and so did the apocalypse.
 
-“For i = 0; i <= n; i++ —
-and just like that, the world had one extra day.”
+> “For i = 0; i <= n; i++ —
+> and just like that, the world had one extra day.”
 
-🔙 Back to TheCodeLores Home
+---
+
+🔙 [Back to TheCodeLores Home](../../index.md)
 
 📅 Published: November 2025
-✍️ Author: Aisha Karigar
+✍️ Author: [Aisha Karigar](https://github.com/aishakarigar)
+
+```
+
+
