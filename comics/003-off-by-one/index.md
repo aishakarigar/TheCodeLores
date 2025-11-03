@@ -85,7 +85,7 @@ NASA once lost the Mars Climate Orbiter due to a **tiny calculation error** —
 proving that even one wrong boundary can send you miles off course.
 
 In programming, one misplaced `=` can do the same.
-Precision keeps your software — and your elevators — from falling apart. 🚀
+Precision keeps your software — and your elevators — from falling apart. 😁
 
 ---
 
