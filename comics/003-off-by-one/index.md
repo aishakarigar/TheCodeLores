@@ -5,21 +5,22 @@ title: Comic 003 – The Off-by-One Apocalypse
 
 ![Comic 03 – The Off-by-One Apocalypse](./comic.png)
 
-*When “just one more iteration” means the end of the world…* 🌍💀
+*When your loop forgets where the top floor ends…* 🛗💀
 
 ---
 
 ## 💥 Problem  
 Every developer’s first nemesis:  
-the **off-by-one error** — a tiny mistake that causes *epic chaos*.
+the **off-by-one error** — a tiny bug that opens doors to chaos.
 
-It happens when your loop runs **one time too many** (or too few),  
-often because of a small typo in the loop boundary —  
-like writing `<= n` instead of `< n`.
+Imagine an engineer programming an elevator for a building with **floors 0 to n-1**.  
+But instead of stopping there, they add a shiny **“n” button** —  
+one extra floor that doesn’t exist.
 
-The result? Your program steps outside the intended range,  
-accessing memory that doesn’t belong to it.  
-And just like that, your perfect logic meets its apocalypse.
+When someone presses it, the doors open...  
+to *nothing*. The elevator hangs in the void,  
+and the passenger screams:  
+> “This wasn’t in the floor plan!” 😱
 
 ---
 
@@ -30,13 +31,14 @@ And just like that, your perfect logic meets its apocalypse.
 using namespace std;
 
 int main() {
-    int n = 5;
-    int clones[5];
+    int floors = 5;
 
-    for (int i = 0; i <= n; i++) {  // ⚠️ Off-by-one error!
-        clones[i] = i;
-        cout << "Clone #" << i << " created\n";
+    for (int i = 0; i <= floors; i++) {  // ⚠️ Off-by-one error!
+        cout << "Stopping at floor " << i << endl;
     }
+
+    cout << "Doors opening at floor " << floors << "...\n";
+    cout << "Error: floor not found!\n";
 
     return 0;
 }
@@ -47,11 +49,13 @@ int main() {
 ## 💻 Code Example (Python)
 
 ```python
-clones = [0] * 5
+floors = 5
 
 for i in range(0, 6):  # ⚠️ Off-by-one error! range(0, 6) → runs 6 times
-    clones[i] = i
-    print(f"Clone #{i} created")
+    print(f"Stopping at floor {i}")
+
+print("Doors opening at floor 5...")
+print("Error: floor not found!")
 ```
 
 ---
@@ -59,43 +63,42 @@ for i in range(0, 6):  # ⚠️ Off-by-one error! range(0, 6) → runs 6 times
 ## 🧩 Lesson
 
 The difference between `< n` and `<= n` decides whether you:
-✅ stay within bounds — or
-❌ summon an *IndexError* / *Segmentation Fault*.
+✅ stop safely within bounds — or
+❌ overstep into an invalid range.
 
-If your array has `n` elements, valid indices are `0` through `n-1`.
-So use `i < n`, not `i <= n`.
+In most languages, arrays and loops start at `0`
+and end *before* reaching `n`.
+That’s why your conditions should use `< n` — not `<= n`.
 
 **Rule of thumb:**
-👉 Arrays are zero-indexed. Loops should stop **before** `n`.
-
-Think of it as an exclusive party — `n` is on the guest list,
-but never gets inside. 🎟️
+Count starts at zero, but ends one step before `n`.
+Miss that step, and your code will take one too many.
 
 ---
 
 ## 🌍 Real-World Connection
 
-Off-by-one errors are everywhere — in loops, slicing,
-pagination, and even in time calculations.
+Off-by-one errors lurk in loops, pagination,
+date ranges, and even spacecraft code.
 
-NASA’s Mars Climate Orbiter once failed
-due to a **unit conversion bug** —
-a tiny mismatch that led to massive consequences.
-One extra or missing iteration can cause similar chaos
-in software systems managing memory, arrays, or buffers.
+NASA once lost the Mars Climate Orbiter due to a **tiny calculation error** —
+proving that even one wrong boundary can send you miles off course.
 
-Precision isn’t just math — it’s survival. 🚀
+In programming, one misplaced `=` can do the same.
+Precision keeps your software — and your elevators — from falling apart. 🚀
 
 ---
 
 ## 🦸 CodeLore
 
-Our hero’s clone army was supposed to have `n` soldiers —
-but `i <= n` unleashed **one too many**.
-The overflow began… and so did the apocalypse.
+Our engineer wanted to make life easier —
+one extra floor, what could go wrong?
+
+But the “n-th floor” didn’t exist.
+When the doors opened, the world did too.
 
 > “For i = 0; i <= n; i++ —
-> and just like that, the world had one extra day.”
+> and just like that, the elevator reached the end of reality.”
 
 ---
 
@@ -103,7 +106,4 @@ The overflow began… and so did the apocalypse.
 
 📅 Published: November 2025
 ✍️ Author: [Aisha Karigar](https://github.com/aishakarigar)
-
-```
-
 
