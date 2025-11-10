@@ -90,9 +90,9 @@ and the rounding errors show up like ghosts in your output.
 Floating-point math isn’t wrong — it’s just **imprecise**.
 So when accuracy matters (like in finance, physics, or pixel-perfect graphics):
 
-✅ Use `Decimal` or `Fraction` modules (Python)
-✅ Round results explicitly with `round(x, n)`
-✅ Never compare floats directly — compare their difference (`abs(a - b) < ε`)
+- ✅ Use `Decimal` or `Fraction` modules (Python)
+- ✅ Round results explicitly with `round(x, n)`
+- ✅ Never compare floats directly — compare their difference (`abs(a - b) < ε`)
 
 **Rule of thumb:**
 Trust integers. Doubt floats. Always verify decimals.
