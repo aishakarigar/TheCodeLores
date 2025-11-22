@@ -3,7 +3,7 @@ layout: page
 title: Comic 006 – The Semicolon Serial Killer
 ---
 
-![Comic 04 – The Semicolon Serial Killer](./comic.png)
+![Comic 06 – The Semicolon Serial Killer](./comic.png)
 
 *“He always finishes the job.” 🔪;*
 
@@ -143,6 +143,3 @@ Because as the detective says:
 📅 Published: November 2025
 ✍️ Author: [Aisha Karigar](https://github.com/aishakarigar)
 
-
-Just tell me!
-```
