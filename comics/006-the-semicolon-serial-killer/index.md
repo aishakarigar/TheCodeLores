@@ -4,6 +4,7 @@ title: Comic 004 – The Semicolon Serial Killer
 ---
 
 ![Comic 04 – The Semicolon Serial Killer](./comic.png)
+
 *“He always finishes the job.” 🔪;*
 
 ---
