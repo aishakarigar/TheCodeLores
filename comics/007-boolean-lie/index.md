@@ -4,6 +4,7 @@ title: Comic 007 – The Boolean Who Lied
 ---
 
 ![Comic 07 – The Boolean Who Lied](./comic.png)
+
 *Trust issues: the Boolean edition 😵🔀*
 
 ---
