@@ -5,6 +5,7 @@ title: Comic 009 – The Single Point of Failure
  
 
 ![Comic 09 – The Single Point of Failure](./comic.png)
+
 *When your entire system stands on one shaky box 🧱💥*
  
 
