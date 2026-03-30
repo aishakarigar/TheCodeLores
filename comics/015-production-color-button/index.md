@@ -4,6 +4,7 @@ title: Comic 015 – The Production Color Button
 ---
 
 ![Comic 015 – The Production Color Button](./comic.png)
+
 *AI built the app in minutes. Changing one button color took hours 🎨*
 
 ---
