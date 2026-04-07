@@ -6,6 +6,12 @@ baseurl: "/TheCodeLores"
 
 theme: minima   # You can also try: cayman, jekyll-theme-cayman, etc.
 
+header_pages:
+  - index.md
+  - comics.md
+  - CONTRIBUTING.md
+  - CODE_OF_CONDUCT.md
+
 
 # Markdown & formatting
 markdown: kramdown
